@@ -1,10 +1,17 @@
 
 
+# Testimonial Slider
 
-# This is a repo for simple vanila javascript projects
+1) Testimonial-1
 
-1) [Testimonial Slider](https://github.com/vasanthgx/simple-js-projects/tree/main/projects/testimonial-slider)
+[Testimonial Slider -1](https://github.com/vasanthgx/simple-js-projects/blob/main/projects/testimonial-slider/images/image1.png)
 
-2) [Tip Calculator](https://github.com/vasanthgx/simple-js-projects/tree/main/projects/tip-calculator)
+2) Testimonial-2
 
-3) [Age Calculator](https://github.com/vasanthgx/simple-js-projects/tree/main/projects/age-calculator)
+[Testimonial Slider -2](https://github.com/vasanthgx/simple-js-projects/blob/main/projects/testimonial-slider/images/image2.png)
+
+
+3) Testimonial-3
+
+[Testimonial Slider -3](https://github.com/vasanthgx/simple-js-projects/blob/main/projects/testimonial-slider/images/image3.png)
+
