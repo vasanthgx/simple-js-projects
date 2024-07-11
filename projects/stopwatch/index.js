@@ -14,6 +14,9 @@ function startTimer(){
         elapsedTime = Date.now() - startTime;
         timerEl.textContent = formatTime(elapsedTime);
     },10)
+
+    startButtonEl.disabled = true;
+    stopButtonEl.disabled= false;
 }
 
 function formatTime(elapsedTime){
@@ -39,9 +42,11 @@ function stopTimer(){
 }
 
 function resetTimer(){
+
     clearInterval(timerInterval);
     elapsedTime = 0;
     timerEl = "00:00:00";
+
     startButtonEl.disabled = false;
     stopButtonEl.disabled = true;
 }
