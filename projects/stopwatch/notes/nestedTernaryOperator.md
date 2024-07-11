@@ -65,4 +65,4 @@ milliseconds > 9 ? milliseconds : "0" + milliseconds
 ```
 `milliseconds > 9 ? milliseconds : "0" + milliseconds`: If `milliseconds` is greater than 9, it returns `milliseconds`; otherwise, it adds a leading zero by concatenating "0" and `milliseconds`.
 
-**In summary, the ? is used twice within nested ternary operations to first check if a time component (hours, minutes, or seconds) is non-zero, and then to check if it needs a leading zero for proper formatting.**
+*In summary, the ? is used twice within nested ternary operations to first check if a time component (hours, minutes, or seconds) is non-zero, and then to check if it needs a leading zero for proper formatting.*
