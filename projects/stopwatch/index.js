@@ -28,7 +28,7 @@ function formatTime(elapsedTime){
     return (
         (hours ? (hours > 9 ? hours : '00' + hours) : '00' ) + ":" +
         (minutes ? (minutes > 9 ? minutes : "00" + minutes) : '00') + ":" +
-        (seconds ? (seconds > 9 ? seconds : "00" + seconds) : '00') + ":" +
+        (seconds ? (seconds > 9 ? seconds : "00" + seconds) : '00') + "." +
         (milliseconds > 9 ? milliseconds : '00' + milliseconds)
 
     );
