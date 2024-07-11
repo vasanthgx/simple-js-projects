@@ -8,3 +8,5 @@
 2) [Tip Calculator](https://github.com/vasanthgx/simple-js-projects/tree/main/projects/tip-calculator)
 
 3) [Age Calculator](https://github.com/vasanthgx/simple-js-projects/tree/main/projects/age-calculator)
+
+4) [Stopwatch](https://github.com/vasanthgx/simple-js-projects/tree/main/projects/stopwatch)
