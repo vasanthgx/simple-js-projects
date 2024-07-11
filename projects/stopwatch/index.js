@@ -19,7 +19,7 @@ function startTimer(){
 function formatTime(elapsedTime){
     const milliseconds = Math.floor((elapsedTime %1000)/10);
     const seconds = Math.floor((elapsedTime %(1000 * 60)) / 1000);
-    const minutes = Math.floor((elapsedTime % 1000 * 60 * 60) / (1000 * 60));
+    const minutes = Math.floor((elapsedTime % (1000 * 60 * 60)) / (1000 * 60));
     const hours = Math.floor(elapsedTime / (1000 * 60 * 60));
 
     return (
