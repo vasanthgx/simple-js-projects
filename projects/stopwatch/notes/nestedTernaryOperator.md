@@ -36,7 +36,7 @@ hours ? (hours > 9 ? hours : "0" + hours) : "00"
 
 ```
 - `hours ? ... : "00" `: If `hours` is non-zero, the part before the colon (:) is executed; otherwise, "00" is returned.
--  `hours > 9 ? hours : "0" + hours`: If hours is greater than 9, it returns `hours`; otherwise, it adds a leading zero by concatenating "0" and hours.
+-  `hours > 9 ? hours : "0" + hours`: If `hours` is greater than 9, it returns `hours`; otherwise, it adds a leading zero by concatenating "0" and `hours`.
 
 2. **Formatting minutes:**
 
@@ -44,5 +44,25 @@ hours ? (hours > 9 ? hours : "0" + hours) : "00"
 minutes ? (minutes > 9 ? minutes : "0" + minutes) : "00"
 ```
 
-- `minutes ? ... : "00"`: If minutes is non-zero, the part before the colon (:) is executed; otherwise, "00" is returned.
-- `minutes > 9 ? minutes : "0" + minutes`: If minutes is greater than 9, it returns minutes; otherwise, it adds a leading zero by concatenating "0" and minutes.
+- `minutes ? ... : "00"`: If `minutes` is non-zero, the part before the colon (:) is executed; otherwise, "00" is returned.
+- ``minutes` > 9 ? `minutes` : "0" + `minutes`: If `minutes` is greater than 9, it returns `minutes`; otherwise, it adds a leading zero by concatenating "0" and `minutes`.
+
+3. **Formatting seconds:**
+
+
+```
+seconds ? (seconds > 9 ? seconds : "0" + seconds) : "00"
+
+```
+
+- `seconds ? ... : "00" `: If `seconds` is non-zero, the part before the colon (:) is executed; otherwise, "00" is returned.
+- `seconds > 9 ? seconds : "0" + seconds `: If `seconds` is greater than 9, it returns `seconds`; otherwise, it adds a leading zero by concatenating "0" and `seconds`.
+
+4. **Formatting milliseconds:**
+```
+milliseconds > 9 ? milliseconds : "0" + milliseconds
+
+```
+`milliseconds > 9 ? milliseconds : "0" + milliseconds`: If `milliseconds` is greater than 9, it returns `milliseconds`; otherwise, it adds a leading zero by concatenating "0" and `milliseconds`.
+
+**In summary, the ? is used twice within nested ternary operations to first check if a time component (hours, minutes, or seconds) is non-zero, and then to check if it needs a leading zero for proper formatting.**
