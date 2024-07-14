@@ -53,7 +53,7 @@ async function getRecipes(){
 async function init(){
     const recipes = await getRecipes();
 
-    console.log(recipes)
+    // console.log(recipes)
 
     displayRecipes(recipes);
 }
