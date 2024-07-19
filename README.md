@@ -13,3 +13,7 @@
 
 5) [Recipe Book](https://github.com/vasanthgx/simple-js-projects/tree/main/projects/recipe-book)
 
+6) [Pomodoro Timer](https://github.com/vasanthgx/simple-js-projects/tree/main/projects/pomodoro-timer)
+
+
+
