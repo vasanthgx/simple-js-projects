@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(135deg, #ff9a9e 0%, #fad0c4 55%, #fad0c4 100%);
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+.section {
+    min-height: 100vh;
+    padding-top: 60px;
+    background: rgba(255, 255, 255, 0.8);
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+h1 {
+    font-size: 36px;
+    margin-bottom: 30px;
+    color: #333;
+    text-align: center;
+    font-weight: 700;
+    background: linear-gradient(to right, #ff9a9e, #fad0c4);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.accordion {
+    max-width: 800px;
+    margin: auto;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+.accordion_item {
+    border-bottom: 1px solid #ccc;
+}
+
+.accordion_title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+    cursor: pointer;
+    background: linear-gradient(to right, #a1c4fd, #c2e9fb);
+    transition: background-color 0.3s ease;
+    color: #444;
+}
+
+.accordion_title:hover {
+    background: linear-gradient(to right, #c2e9fb, #a1c4fd);
+}
+
+.accordion_title h3 {
+    font-size: 20px;
+    font-weight: 600;
+    margin: 0;
+}
+
+.accordion_title i {
+    font-size: 24px;
+    transition: transform 0.3s ease;
+}
+
+.accordion_content {
+    display: none;
+    padding: 20px;
+    background: #fff;
+}
+
+.accordion_content p {
+    font-size: 18px;
+    color: #666;
+}
+
+.accordion_title.active i {
+    transform: rotate(180deg);
+}
+
+.accordion_title.active {
+    background: linear-gradient(to right, #c2e9fb, #a1c4fd);
+}
+
+.accordion_title.active + .accordion_content {
+    display: block;
+}
