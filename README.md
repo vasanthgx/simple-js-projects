@@ -15,5 +15,7 @@
 
 6) [Pomodoro Timer](https://github.com/vasanthgx/simple-js-projects/tree/main/projects/pomodoro-timer)
 
+7) [Accordion](https://github.com/vasanthgx/simple-js-projects/tree/main/projects/accordion)
+
 
 
