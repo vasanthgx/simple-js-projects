@@ -17,5 +17,9 @@
 
 7) [Accordion](https://github.com/vasanthgx/simple-js-projects/tree/main/projects/accordion)
 
+8) [Random Color Generator](https://github.com/vasanthgx/simple-js-projects/tree/main/projects/random-color-generator)
+
+
+
 
 
