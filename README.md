@@ -19,7 +19,7 @@
 
 8) [Random Color Generator](https://github.com/vasanthgx/simple-js-projects/tree/main/projects/random-color-generator)
 
-9) [Star Ratins](https://github.com/vasanthgx/simple-js-projects/tree/main/projects/star-rating)
+9) [Star Ratings](https://github.com/vasanthgx/simple-js-projects/tree/main/projects/star-rating)
 
 
 
