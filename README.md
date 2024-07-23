@@ -21,6 +21,8 @@
 
 9) [Star Ratings](https://github.com/vasanthgx/simple-js-projects/tree/main/projects/star-rating)
 
+10) [API Call Examples](https://github.com/vasanthgx/simple-js-projects/tree/main/projects/api-call)
+
 
 
 
