@@ -23,6 +23,10 @@
 
 10) [API Call Examples](https://github.com/vasanthgx/simple-js-projects/tree/main/projects/api-call)
 
+11) [Weight convereter](https://github.com/vasanthgx/simple-js-projects/tree/main/projects/weight-converter)
+
+
+
 
 
 
