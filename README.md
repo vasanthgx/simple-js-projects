@@ -24,7 +24,9 @@
 10) [API Call Examples](https://github.com/vasanthgx/simple-js-projects/tree/main/projects/api-call)
 
 11) [Weight convereter](https://github.com/vasanthgx/simple-js-projects/tree/main/projects/weight-converter)
+
 12) [Random Photos](https://github.com/vasanthgx/simple-js-projects/tree/main/projects/random-photos)
+
 13) [Random Quote Generator](https://github.com/vasanthgx/simple-js-projects/tree/main/projects/random-quote-generator)
 
 
