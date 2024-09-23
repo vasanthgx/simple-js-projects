@@ -28,8 +28,8 @@
 12) [Random Photos](https://github.com/vasanthgx/simple-js-projects/tree/main/projects/random-photos)
 
 13) [Random Quote Generator](https://github.com/vasanthgx/simple-js-projects/tree/main/projects/random-quote-generator)
-13) [Rock Paper Scissors](https://github.com/vasanthgx/simple-js-projects/tree/main/projects/rock-paper-scissors)
-13) [Video Popup](https://github.com/vasanthgx/simple-js-projects/tree/main/projects/video-popup)
+14) [Rock Paper Scissors](https://github.com/vasanthgx/simple-js-projects/tree/main/projects/rock-paper-scissors)
+15) [Video Popup](https://github.com/vasanthgx/simple-js-projects/tree/main/projects/video-popup)
 
 
 
