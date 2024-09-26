@@ -29,7 +29,10 @@
 
 13) [Random Quote Generator](https://github.com/vasanthgx/simple-js-projects/tree/main/projects/random-quote-generator)
 14) [Rock Paper Scissors](https://github.com/vasanthgx/simple-js-projects/tree/main/projects/rock-paper-scissors)
+
 15) [Video Popup](https://github.com/vasanthgx/simple-js-projects/tree/main/projects/video-popup)
+
+16)[Tabs](https://github.com/vasanthgx/simple-js-projects/tree/main/projects/tabs)
 
 
 
